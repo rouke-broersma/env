@@ -1,0 +1,27 @@
+antigen selfupdate
+
+# Install oh-my-zsh and set path to oh-my-zsh installation.
+antigen use oh-my-zsh
+
+# Set name of the theme to load
+# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+antigen theme agnoster
+
+# Plugins from oh-my-zsh
+antigen bundle command-not-found
+antigen bundle thefuck
+antigen bundle git
+antigen bundle ssh-agent
+antigen bundle docker
+antigen bundle kubectl
+antigen bundle helm
+
+# Plugins from zsh-users
+antigen bundle zsh-users/zsh-completions
+antigen bundle zsh-users/zsh-autosuggestions
+
+# Must be last bundle
+antigen bundle zsh-users/zsh-syntax-highlighting
+
+# Tell antigen to finish up
+antigen apply
