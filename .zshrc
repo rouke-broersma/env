@@ -25,6 +25,7 @@ alias helm="nocorrect helm"
 
 # Start apps
 eval $(thefuck --alias)
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 # Oh my ZSH config
 
