@@ -9,9 +9,11 @@ config remote add origin git@github.com:rouke-broersma/env.git
 # Init new machine
 
 ```
-git clone --separate-git-dir=~/.config git@github.com:rouke-broersma/env.git ~/config-tmp
-cp ~/config-tmp ~
-rm -r ~/config-tmp/
+git clone --separate-git-dir=$HOME/.config git@github.com:rouke-broersma/env.git $HOME/config-tmp
+cp -T $HOME/config-tmp $HOME
+rm -r $HOME/config-tmp/
+source .zshrc
+config config status.showUntrackedFiles no
 ```
 
 # Update config
