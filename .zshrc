@@ -11,7 +11,7 @@ else
 fi
 
 # Autocompletion
-#source <(kubectl completion zsh)
+source <(kubectl completion zsh)
 
 # Aliases
 alias kctx="kubectx"
