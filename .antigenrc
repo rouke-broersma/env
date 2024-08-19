@@ -13,8 +13,10 @@ antigen bundle thefuck
 antigen bundle git
 antigen bundle ssh-agent
 antigen bundle docker
+antigen bundle docker-compose
 antigen bundle kubectl
 antigen bundle helm
+antigen bundle azure
 
 # Plugins from zsh-users
 antigen bundle zsh-users/zsh-completions

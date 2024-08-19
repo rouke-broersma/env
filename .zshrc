@@ -11,22 +11,16 @@ else
   export KUBE_EDITOR='code --wait'
 fi
 
-# Autocompletion
-source <(kubectl completion zsh)
-
 # Aliases
+alias config='/usr/bin/git --git-dir=$HOME/.config/ --work-tree=$HOME'
+
 alias kctx="kubectx"
 alias kns="kubens"
-alias config='/usr/bin/git --git-dir=$HOME/.config/ --work-tree=$HOME'
 
 # Nocorrect aliases
 
 alias git="nocorrect git"
 alias helm="nocorrect helm"
-
-# Start apps
-eval $(thefuck --alias)
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 # Oh my ZSH config
 
