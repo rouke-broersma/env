@@ -25,4 +25,8 @@ config commit -m "Add zshrc"
 config push
 ```
 
+# Requirements
+
+- Install font: https://github.com/powerline/fonts/blob/master/RobotoMono/Roboto%20Mono%20for%20Powerline.ttf
+- Install ZSH
 
