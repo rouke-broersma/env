@@ -1,0 +1,31 @@
+# Install oh-my-zsh
+getantidote/use-omz
+ohmyzsh/ohmyzsh path:lib
+
+# Fix completions
+mattmc3/ez-compinit
+
+# Load Theme
+ohmyzsh/ohmyzsh path:themes/agnoster.zsh-theme
+
+# Plugins from oh-my-zsh
+#ohmyzsh/ohmyzsh path:plugins/command-not-found
+#ohmyzsh/ohmyzsh path:plugins/thefuck    
+#ohmyzsh/ohmyzsh path:plugins/git
+#ohmyzsh/ohmyzsh path:plugins/ssh-agent
+#ohmyzsh/ohmyzsh path:plugins/docker
+#ohmyzsh/ohmyzsh path:plugins/docker-compose
+#ohmyzsh/ohmyzsh path:plugins/kubectl
+#ohmyzsh/ohmyzsh path:plugins/helm
+#ohmyzsh/ohmyzsh path:plugins/azure
+
+# Plugins from zsh-users
+zsh-users/zsh-completions path:src kind:fpath
+ahmetb/kubectx path:completion kind:fpath
+
+# Other
+zdharma-continuum/fast-syntax-highlighting
+
+# Must be last
+zsh-users/zsh-autosuggestions
+zsh-users/zsh-history-substring-search
