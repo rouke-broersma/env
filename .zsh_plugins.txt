@@ -11,6 +11,7 @@ ohmyzsh/ohmyzsh path:themes/agnoster.zsh-theme
 # Plugins from oh-my-zsh
 ohmyzsh/ohmyzsh path:plugins/command-not-found
 ohmyzsh/ohmyzsh path:plugins/thefuck    
+ohmyzsh/ohmyzsh path:plugins/brew
 ohmyzsh/ohmyzsh path:plugins/git
 ohmyzsh/ohmyzsh path:plugins/ssh-agent
 ohmyzsh/ohmyzsh path:plugins/docker
