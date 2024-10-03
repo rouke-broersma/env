@@ -12,6 +12,7 @@ antidote load
 
 # Zsh options
 setopt extended_glob
+setopt HIST_IGNORE_SPACE # Commands with leading space are not saved in history
 
 # Set theme
 ZSH_THEME=agnoster
