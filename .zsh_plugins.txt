@@ -20,6 +20,7 @@ ohmyzsh/ohmyzsh path:plugins/kubectl
 ohmyzsh/ohmyzsh path:plugins/helm
 ohmyzsh/ohmyzsh path:plugins/azure
 ohmyzsh/ohmyzsh path:plugins/nvm
+ohmyzsh/ohmyzsh path:plugins/sdk
 
 # Plugins from zsh-users
 zsh-users/zsh-completions path:src kind:fpath
